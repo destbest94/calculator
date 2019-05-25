@@ -12,8 +12,8 @@
 
 
 
-```
-What can do?
+
+## What can do?
 ```
 Mathematical expressions;
 Calculate math functions like sin(), cos(), sqrt(), log(), abs();
