@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" type="text/css" href="./css/main_old.css" />
+  <script src="./js/viewcontrol.js"></script>
+  <script src="./js/Simple.js"></script>
+  <script src="./js/Engineer.js"></script>
+  <script src="./js/Programmer.js"></script>
+</head>
+
+<body>
+  <div class="main">
+    
+    <form name="form">
+      <input type="text" class="textview" name="textview" id="textview">
+    </form>
+    
+    <table style="width:100%;" id="all">
+      
+      <tr>
+        <td><input type="button" value="sin" id="sin_btn" onclick="onFunctionsClick('sin')" class="button operation"></td>
+        <td><input type="button" value="cos" id="cos_btn" onclick="onFunctionsClick('cos')" class="button operation"></td>
+        <td><input type="button" value="C" id="clear_btn" onclick="onClearClick()" class="button operation"></td>
+        <td><input type="button" value="()" id="brackets_btn" onclick="onBracketsClick()" class="button operation"></td>
+        <td><input type="button" value="%" id="percent_btn" onclick="onOperationClick('%')" class="button operation"></td>
+        <td><input type="button" value="/" id="division_btn" onclick="onOperationClick('/')" class="button operation"></td>
+        <td><label class="systems"><input type="radio" value="16" id="radio1" name="system">HEX</label></td>
+      </tr>
+
+      <tr>
+        <td><input type="button" value="log" id="log_btn" onclick="onFunctionsClick('log')" class="button operation"></td>
+        <td><input type="button" value="sqrt" id="sqrt_btn" onclick="onFunctionsClick('sqrt')" class="button operation"></td>
+        <td><input type="button" value="7" id="number_btn_7" onclick="onNumberClick(7)" class="button number"></td>
+        <td><input type="button" value="8" id="number_btn_8" onclick="onNumberClick(8)" class="button number"></td>
+        <td><input type="button" value="9" id="number_btn_9" onclick="onNumberClick(9)" class="button number"></td>
+        <td><input type="button" value="*" onclick="onOperationClick('*')" class="button operation"></td>
+        <td><label class="systems"><input type="radio" id="radio2" name="system" value="10" checked>DEC</label></td>
+      </tr>
+
+      <tr>
+        <td><input type="button" value="x^2" onclick="onPowClick('^2')" class="button operation"></td>
+        <td><input type="button" value="x^3" onclick="onPowClick('^3')"class="button operation"></td>
+        <td><input type="button" value="4" id="number_btn_4" onclick="onNumberClick(4)" class="button number"></td>
+        <td><input type="button" value="5" id="number_btn_5" onclick="onNumberClick(5)" class="button number"></td>
+        <td><input type="button" value="6" id="number_btn_6" onclick="onNumberClick(6)" class="button number"></td>
+        <td><input type="button" value="-" onclick="onOperationClick('-')" class="button operation"></td>
+        <td><label class="systems"><input type="radio" id="radio3" value="8" name="system">OCT</label></td>
+      </tr>
+
+      <tr>
+        <td><input type="button" value="x^y" onclick="onPowClick('^')" class="button operation"></td>
+        <td><input type="button" value="1/x" onclick="onOneSubtract()" class="button operation"></td>
+        <td><input type="button" value="1" id="number_btn_1" onclick="onNumberClick(1)" class="button number"></td>
+        <td><input type="button" value="2" id="number_btn_2" onclick="onNumberClick(2)" class="button number"></td>
+        <td><input type="button" value="3" id="number_btn_3" onclick="onNumberClick(3)" class="button number"></td>
+        <td><input type="button" value="+" onclick="onOperationClick('+')" class="button operation"></td>
+        <td><label class="systems"><input type="radio" id="radio4" value="2" name="system">BIN</label></td>
+      </tr>
+
+      <tr>
+        <td><input type="button" value="n!" onclick="onPowClick('!')" class="button operation"></td>
+        <td><input type="button" value="|x|" onclick="onFunctionsClick('abs')" class="button operation"></td>
+        <td><input type="button" value="+/-" onclick="onSignClick()" class="button number"></td>
+        <td><input type="button" value="0" id="number_btn_0" onclick="onNumberClick(0)" class="button number"></td>
+        <td><input type="button" value="." onclick="onPointClick()" class="button number"></td>
+        <td><input type="button" value="=" onclick="onCalculateClick()" class="button end"></td>
+      </tr>
+
+    </table>
+
+  </div>
+</body>
+
+</html>
