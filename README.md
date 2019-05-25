@@ -1,11 +1,17 @@
 # Calculator
-## Modes
-```
-1. Basic mode
-2. Engineering mode
-3. Programming mode
-```
 
+# Modes
+
+## 1. Basic mode
+![Screenshot from 2019-05-25 18-38-30](https://user-images.githubusercontent.com/38331113/58371769-f653a700-7f1c-11e9-9e62-abdb76b23efa.png)
+
+## 2. Engineering mode
+![Screenshot from 2019-05-25 18-38-30](https://user-images.githubusercontent.com/38331113/58371769-f653a700-7f1c-11e9-9e62-abdb76b23efa.png)
+
+## 3. Programming mode
+![Screenshot from 2019-05-25 18-38-30](https://user-images.githubusercontent.com/38331113/58371769-f653a700-7f1c-11e9-9e62-abdb76b23efa.png)
+
+```
 ### What can do?
 ```
 Mathematical expressions;
