@@ -10,8 +10,10 @@
 ## 3. Programming mode
 ![Screenshot from 2019-05-25 18-38-58](https://user-images.githubusercontent.com/38331113/58371830-afb27c80-7f1d-11e9-9534-172614a96bde.png)
 
+
+
 ```
-### What can do?
+What can do?
 ```
 Mathematical expressions;
 Calculate math functions like sin(), cos(), sqrt(), log(), abs();
